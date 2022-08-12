@@ -38,7 +38,7 @@ namespace JennysInsanity.NPCs
         {
             {
                 player.AddBuff(BuffID.Bleeding, 2400, true);
-                NPC.SpawnOnPlayer(player.whoAmI, mod.NPCType("SkinWalker"));
+                NPC.SpawnOnPlayer(player.whoAmI, mod.NPCType("SkinWalker")); //This SHOULD spawn a skin walker on the player but spawns it a far distance away for some reason where it bugs out and despawns
                 npc.life = 0;
             }
         }

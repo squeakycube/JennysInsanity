@@ -37,7 +37,7 @@ namespace JennysInsanity.Items
 			player.minionDamage += 0.6f;
 			player.maxMinions -= 1;
 		}
-
+        //I need to change this to a VERY endgame craft
 		public override void AddRecipes() {
 	ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.ObsidianBrick, 10);

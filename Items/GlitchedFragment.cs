@@ -8,7 +8,7 @@ namespace JennysInsanity.Items
 	{
 		public override void SetStaticDefaults() 
 		{
-			// DisplayName.SetDefault("MoltenTrident"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
+			//This will drop from glitch boss and will be an endgame crafting item
 			Tooltip.SetDefault("It feels tingley.");
 		}
 
