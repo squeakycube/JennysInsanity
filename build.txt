@@ -1,0 +1,3 @@
+displayName = Jennifer's Deranged Mod
+author = Jennifer Griffin - squeakycube
+version = 0.1
